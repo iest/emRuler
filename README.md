@@ -5,7 +5,7 @@
 
 ## Instructions
 
-Simply link to both `emRuler.js` and `emRuler.css` in your document <head>.
+Simply link to both `emRuler.js` and `emRuler.css` in your document head.
 
 The code is fully commented, so feel free to minify if 909bytes is too big...
 
