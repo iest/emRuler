@@ -16,9 +16,7 @@ Firstly, copy the following script:
 
 
 ## Caveats
-Since there's no reliable way to figure out the body font size of the browser, it gets hard coded right at the top of `emRuler.js`, as `bodyFontSize`.
-
-(Most browsers have 16px as the default, so that's what it defaults to).
+Since there's no reliable way to figure out the body font size of the browser, it's hard coded to 16px. Change the variable `a` in the bookmarklet if you want to change this.
 
 
 Think this is great/terrible? Let me know on twitter [@iestynw](http://twitter.com/iestynw).
