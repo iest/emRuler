@@ -1,8 +1,7 @@
 if (document.querySelector('.emRuler')) {
     var oldEmRuler = document.querySelector('.emRuler');
     oldEmRuler.parentNode.removeChild(oldEmRuler);
-}
-else {
+} else {
     var bodyFontSize = 16; // Define the body font-size of your browser
 
     var emRuler; // Define the ruler itself first
@@ -13,7 +12,18 @@ else {
 
     document.body.appendChild(emRuler); // Now attach it to the document body
 
-    var style = "position:fixed;bottom:0;right:0;background:#1abc9c;color:#34495e;padding:.5em;font-family:'Futura'"
+    var style =
+        "position: fixed;" +
+        "z-index: 9999999999;" +
+        "bottom: 0;" +
+        "left: 0;" +
+        "right: 0;" +
+        "background: #1abc9c;" +
+        "border-top: 1px solid rgba(255,255,255,0.5);" +
+        "color: #34495e;" +
+        "padding: 0.5em;" +
+        "text-align: center;" +
+        "font-family: 'Futura'";
 
     emRuler.setAttribute('style', style);
 
